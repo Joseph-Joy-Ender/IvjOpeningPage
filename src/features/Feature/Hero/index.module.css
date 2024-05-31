@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainCont{
+    display: flex;
+    background-color: #0b678a;
+    width: 100vw;
+    height: 540px;
+    justify-content: space-evenly;
+}
+
+.secondCont > p{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.title{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #282c34;
+    margin-bottom: 0;
+}
+
+.applicationImage{
+    /*width: 27rem;*/
+    /*height: 25rem;*/
+
+}

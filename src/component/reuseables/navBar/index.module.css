@@ -1,0 +1,33 @@
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*position: fixed;*/
+    /*top: 0;*/
+    background: white;
+    /*width: 100rem;*/
+}
+
+.linkCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.linkCont > p{
+    font-weight: bold;
+    font-size: 20px;
+    /*color: #282c34;*/
+    color: black;
+}
+
+.appBlocker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    gap: 10px;
+}

@@ -1,13 +1,14 @@
 import './App.css';
-import FrontPage from "./frontPage";
+// import Feature from "./features/Feature";
+// import FrontPage from "./component/reuseables/frontPage";
+import {Routes} from "./routes";
+import {useRoutes} from "react-router-dom";
 
 function App() {
   return (
-      <>
-          <div className={"space"}></div>
-          <FrontPage/>
-
-      </>
+      // <Feature/>
+      // <FrontPage/>
+      useRoutes(Routes)
   );
 }
 
