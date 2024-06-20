@@ -7,17 +7,17 @@ const NavBar = ()=>{
         <div className={style.mainCont}>
             <div className={style.appBlocker}>
                 <img src={icon} alt={"Page Icon"}/>
-                <h2>AppBlocker</h2>
+                <h2 className={style.appBlockerText}>AppBlocker</h2>
             </div>
             <div className={style.linkCont}>
-                <Link to={"/"}>
-                    <p>Home</p>
+                <Link to={"/"} style={{textDecoration: "none"}}>
+                    <p className={style.links}>Home</p>
                 </Link>
                 <Link to={"/feature"} style={{textDecoration: "none"}}>
-                    <p>Feature</p>
+                    <p className={style.links}>Feature</p>
                 </Link>
                 <Link to={"/about-us"} style={{textDecoration: "none"}}>
-                    <p>AboutUs</p>
+                    <p className={style.links}>About Us</p>
                 </Link>
             </div>
         </div>

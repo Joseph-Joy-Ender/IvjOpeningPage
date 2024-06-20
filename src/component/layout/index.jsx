@@ -1,5 +1,5 @@
 import NavBar from "../reuseables/navBar";
-// import FrontPage from "../reuseabcales/frontPage";
+// import FrontPage from "../reuseables/frontPage";
 import {Outlet} from "react-router-dom";
 import Footer from "../reuseables/Footer";
 

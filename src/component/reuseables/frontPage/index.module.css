@@ -40,7 +40,8 @@
 .first{
     border: 1px solid black;
     padding: 10px 30px;
-    background-color: #cf1515;
+    background-color: black;
+    /*background-color: #cf1515;*/
     color: white;
     font-size: 25px;
     border-radius: 10px;
@@ -49,7 +50,7 @@
 
 }
 .second{
-    border: 1px solid black;
+    border: 1px solid #616465;
     padding: 10px 30px;
     cursor: pointer;
     background-color: #616465;
@@ -65,32 +66,47 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        width: 190vw;
+        width: 100vw;
         height: 1050px;
     }
-
-    .texts{
-        display: flex;
-        flex-direction: column;
-        font-size: 30px;
-        margin-right: 10rem;
+    .logo img{
+        width: 100vw;
+        height: 348px;
+        margin-top: -350px;
     }
+
+    .imageSect{
+        margin-left: -100px;
+    }
+    /*.texts{*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    font-size: 30px;*/
+    /*    margin-right: 10rem;*/
+    /*}*/
 
     .texts > h2{
-        font-size: 3rem;
-        font-weight: bolder;
+        font-size: 15px;
+        /*font-weight: bolder;*/
     }
 
-    .texts > p{
-        font-size: 2rem;
-        font-weight: bold;
-    }
+    /*.texts > p{*/
+    /*    font-size: 2rem;*/
+    /*    font-weight: bold;*/
+    /*}*/
 
-    .buttons{
-        display: inline-flex;
-        justify-content: center;
-        gap: 32px;
-        margin-right: 10rem;
+    /*.buttons{*/
+    /*    display: inline-flex;*/
+    /*    justify-content: center;*/
+    /*    gap: 32px;*/
+    /*    margin-right: 10rem;*/
+    /*}*/
+
+    .first{
+        padding: 8px 15px;
+    }
+    .second{
+        padding: 8px 15px;
     }
 
 }
